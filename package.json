@@ -1,0 +1,25 @@
+{
+  "name": "dev-team-profile-gen",
+  "version": "1.0.0",
+  "description": "The program is designed to create a webpage that will display basic information of a manager's team. The main purpose of the program is to provide the manager with quick access to the team members' email addresses and GitHub profiles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbako801/Dev-Team-Profile-Gen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbako801/Dev-Team-Profile-Gen/issues"
+  },
+  "homepage": "https://github.com/lbako801/Dev-Team-Profile-Gen#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
