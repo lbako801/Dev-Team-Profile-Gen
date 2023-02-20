@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lbako801/Dev-Team-Profile-Gen#readme",
   "dependencies": {
+    "ascii-text-generator": "^1.0.5",
     "inquirer": "^8.2.4"
   },
   "devDependencies": {
