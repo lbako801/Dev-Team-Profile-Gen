@@ -1,0 +1,95 @@
+body {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1F3A;
+    color: #FAFAFA;
+    height: 6rem;
+    width: 95%;
+    border-radius: 0 0 4.5rem 4.5rem;
+}
+
+.banner>h1 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 4rem;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: #1E1F3A 0.25rem solid;
+    width: 400px;
+    height: 550px;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color: #1E1F3A;
+}
+
+.name {
+    background-color: #1E1F3A;
+    color: #FAFAFA;
+    padding: 1rem;
+    font-size: 2.75rem;
+    font-weight: 600;
+    text-align: start;
+}
+
+.role {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 0 0 0.55rem 0.55rem;
+    background-color: #FAFAFA;
+    padding: 0.25rem;
+}
+
+.card-info-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 95%;
+    font-size: 1.5rem;
+}
+
+.card-info-content>div{
+    border-radius: 1rem;
+    color: #1E1F3A;
+    border: #1E1F3A solid 0.25rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #1E1F3A;
+    color: #FAFAFA;
+    font-weight: 600;
+}
+
