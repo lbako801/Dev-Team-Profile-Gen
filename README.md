@@ -28,6 +28,8 @@ Run the tests using npm test.
 GitHub: [PROFILE](https://github.com/lbako801)
 WEBSITE: [WEBSITE](https://lorenbako.com/)
 
+## Demo Video
+[VIDEO](https://watch.screencastify.com/v/aPOqjwk92GJaRHSImAtq)
 ## Screenshots
 ### CLI Interface :)
 ![oop-Sshot](https://user-images.githubusercontent.com/112914389/220232328-e7569fb4-3fc2-4c01-b5d7-d36aafea1da6.jpg)
