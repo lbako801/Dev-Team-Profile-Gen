@@ -1,4 +1,4 @@
-## Dev Team Profile Generator
+## TEAM-Gen
 
 The Dev Team Profile Generator is a Node.js application that allows users to generate a webpage displaying their team members and their roles. The application is built using Node.js, Inquirer, and Jest!
 
