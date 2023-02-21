@@ -1,18 +1,5 @@
 const teamQuestions = [
     {
-        type: 'number',
-        name: 'teamSize',
-        message: 'How many team members do you have (including yourself)?',
-        validate: (input) => {
-            if (input <= 0) {
-                return 'Please enter a number greater than 0';
-            } else if (input > 8) {
-                return 'The maximum team size is 8 members';
-            }
-            return true;
-        },
-    },
-    {
         type: 'list',
         name: 'role',
         message: `Select the role for team member:`,
@@ -25,14 +12,19 @@ const teamQuestions = [
     },
     {
         type: 'input',
+        name: 'id',
+        message: `Enter the ID # for the team member:`,
+    },
+    {
+        type: 'input',
         name: 'email',
         message: `Enter the email for the team member:`,
     },
     {
         type: 'input',
-        name: 'githubUsername',
-        message: `Enter the GitHub username for the team member:`,
-        when: (answers) => answers.role !== 'Manager',
+        name: 'department',
+        message: `Enter the department for the Manager:`,
+        when: (answers) => answers.role === 'Manager',
     },
     {
         type: 'input',
@@ -44,7 +36,7 @@ const teamQuestions = [
         type: 'input',
         name: 'githubProfile',
         message: `Enter the GitHub profile for the engineer:`,
-        when: (answers) => answers.role === 'Engineer',
+        when: (answers) => answers.role === 'Engineer' || 'Other',
     },
     {
         type: 'input',
@@ -54,8 +46,8 @@ const teamQuestions = [
     },
     {
         type: 'input',
-        name: 'role',
-        message: `Enter the role for team member:`,
+        name: 'custom',
+        message: `Enter custom role:`,
         when: (answers) => answers.role === 'Other',
     },
 ];
