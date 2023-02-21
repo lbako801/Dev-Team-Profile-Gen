@@ -1,6 +1,13 @@
 function cardGenerator() {
   this.managerCard = (Manager) => {
-    return `     <div class="banner-container">
+      return `     
+      <title>TEAMGen | ${Manager.name}'s Team!</title>
+      </head>
+      <body class="make-team">
+      </div>
+     </body>
+    </html>
+    <div class="banner-container">
         <div class="banner"><h1>${Manager.name}'s Team</h1></div>
     </div>
     <div class="team-container">
