@@ -1,4 +1,4 @@
-## TEAMgen
+## TEAMgen 🧑‍🤝‍🧑🏿‍🤝‍🧑🏾🧑‍🤝‍🧑 <---thats a team btw
 
 The Dev Team Profile Generator is a Node.js application that allows users to generate a webpage displaying their team members and their roles. The application is built using Node.js, Inquirer, and Jest!
 
@@ -28,4 +28,11 @@ Run the tests using npm test.
 GitHub: [PROFILE](https://github.com/lbako801)
 WEBSITE: [WEBSITE](https://lorenbako.com/)
 
+## Demo Video
+[VIDEO](https://watch.screencastify.com/v/aPOqjwk92GJaRHSImAtq)
 ## Screenshots
+### CLI Interface :)
+![oop-Sshot](https://user-images.githubusercontent.com/112914389/220232328-e7569fb4-3fc2-4c01-b5d7-d36aafea1da6.jpg)
+
+### Example of finished team profile!
+![profile-Sshot](https://user-images.githubusercontent.com/112914389/220232323-a0284002-5277-45d8-9186-287522b78fed.jpg)
