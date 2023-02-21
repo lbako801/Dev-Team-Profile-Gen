@@ -7,6 +7,9 @@ class Other extends Employee{
         this.githubProfile = githubProfile;
        
     }
+    getRole() {
+        return this.custom;
+      }
 }
 
 module.exports = Other;

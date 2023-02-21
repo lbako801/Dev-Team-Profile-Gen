@@ -35,7 +35,7 @@ const teamQuestions = [
     {
         type: 'input',
         name: 'githubProfile',
-        message: `Enter the GitHub profile for the engineer:`,
+        message: `Enter the GitHub profile for the member:`,
         when: (answers) => answers.role === 'Engineer' || 'Other',
     },
     {

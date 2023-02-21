@@ -5,7 +5,10 @@ class Intern extends Employee{
       super(name, email, id);
         this.school = school;
         this.githubProfile = githubProfile;
-    }
+  }
+  getRole() {
+    return "Intern";
+  }
 }
 
 module.exports = Intern;
