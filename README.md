@@ -1,32 +1,34 @@
-## TEAMgen
+## TEAMgen: The Dev Team Profile Generator
 
-The Dev Team Profile Generator is a Node.js application that allows users to generate a webpage displaying their team members and their roles. The application is built using Node.js, Inquirer, and Jest!
+The TEAMgen application is a high-quality Node.js tool that allows users to quickly and easily generate a webpage displaying their team members and their roles. Built using Node.js, Inquirer, and Jest, this application is a powerful and user-friendly addition to any development project.
 
 ## Usage
-To use the application, follow these steps:
+Using the TEAMgen application is simple and straightforward. To get started, follow these steps:
 
-- Clone the repository to your local machine.
-- Install the dependencies using ```npm install```.
-- Run the application using ```node index.js```.
-- Answer the prompts in the command line to add team members to your team.
-- Once you've added all the team members you want, you will generate the HTML page.
-- The generated HTML file can be found in the root directory.
-- Most importantly... ENJOY!
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies using ```npm install```.
+3. Run the application using ```node index.js```.
+4. Answer the prompts in the command line to add team members to your team.
+5. Once you have added all the team members you want, the application will automatically generate an HTML page.
+6. The generated HTML file can be found in the root directory.
 
 ## Features
-Add team members, including managers, engineers, interns, and custom roles.
-
-Displays team members' names, IDs, emails, and role-specific information.
+The TEAMgen application includes a variety of powerful and useful features that make it an excellent choice for any development project. These features include:
+ - The ability to add team members, including managers, engineers, interns, and custom roles, ensuring that you can easily create a team that fits your specific needs.
+ - The ability to display team members' names, IDs, emails, and role-specific information, making it easy to see at a glance who is on your team and what their roles are.
+ - A user-friendly interface that makes it easy to add team members and generate a webpage without any coding knowledge.
 
 ## Testing
-To run tests, follow these steps:
+The TEAMgen application is thoroughly tested using Jest, ensuring that it is reliable and error-free. To run tests, follow these simple steps:
 
 Install Jest using ```npm install --save-dev jest```.
 Run the tests using ```npm test```.
 
 ## Contact
+If you have any questions, comments, or feedback about the TEAMgen application, please feel free to contact us. Our GitHub and website links are listed below:
+
 GitHub: [PROFILE](https://github.com/lbako801)
-WEBSITE: [WEBSITE](https://lorenbako.com/)
+Website: [WEBSITE](https://lorenbako.com/)
 
 ## Demo Video
 [VIDEO](https://watch.screencastify.com/v/aPOqjwk92GJaRHSImAtq)
