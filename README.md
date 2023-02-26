@@ -27,7 +27,7 @@ Run the tests using ```npm test```.
 ## Contact
 If you have any questions, comments, or feedback about the TEAMgen application, please feel free to contact us. Our GitHub and website links are listed below:
 
-GitHub: [PROFILE](https://github.com/lbako801)
+GitHub: [PROFILE](https://github.com/lbako801)  
 Website: [WEBSITE](https://lorenbako.com/)
 
 ## Demo Video
